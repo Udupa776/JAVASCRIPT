@@ -35,7 +35,6 @@ function change(ele)
         
                 }
         }
-
     })
 }
     newgame.addEventListener("click",reset);
