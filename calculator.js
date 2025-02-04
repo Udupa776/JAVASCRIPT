@@ -8,22 +8,26 @@ let eql=document.querySelector("#eql");
 
  nums.forEach(chang);
  opr.forEach(chang);
- function chang(num){
-  num.addEventListener("click",()=>{
+ function chang(num)
+   {
+      num.addEventListener("click",()=>
+      {
     para1.innerText=para1.innerText+num.innerText; 
     para2.innerText="";
 
-  })
+      })
   
- }
-eql.addEventListener('click',()=>{
+   }
+eql.addEventListener('click',()=>
+  {
   const exp=para1.innerText;
   const result = new Function(`return ${exp}`)();
   para2.innerText=result;
   para1.innerText="";
-})
+  })
   
  
- clear.addEventListener("click",()=>{
+ clear.addEventListener("click",()=>
+  {
   para1.innerText=para2.innerText=""; 
- });
+  });
