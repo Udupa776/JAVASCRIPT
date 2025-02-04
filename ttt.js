@@ -32,9 +32,12 @@ function change(ele)
                           win.innerText="Winner is O"; 
                          win.classList.remove("hide");  
                      }
+                     
         
                 }
+        
         }
+        
     })
 }
     newgame.addEventListener("click",reset);
