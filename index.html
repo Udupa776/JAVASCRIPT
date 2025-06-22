@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CURRENCY CONVERTER</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>CURRENCY CONVERTER</h1>
+
+  <div class="div">
+    <label for="input" id="input">ENTER AMOUNT:
+      <input type="number" id="amt">
+    </label>
+    <div class="inp">
+      <label for="select" id="frm">FROM:
+        <div class="sel">
+          <select name="FROM" id="code">
+            <option value="">USD</option>
+          </select>
+          <img id="img" class="img" src="https://flagsapi.com/IN/shiny/64.png" alt="">
+        </div>
+      </label>
+      <label for="select" id="to">TO:
+        <div class="sel">
+          <select name="to" id="code1">
+            <option value="" id="op">INR</option>
+          </select>
+          <img id="img2" class="img" src="https://flagsapi.com/US/shiny/64.png" alt="">
+        </div>
+      </label>
+
+    </div>
+
+    <div id="btn">
+      <button type="submit" id="conv">CONVERT</button>
+    </div>
+    <div id="answ">
+      <div id="rate" style="display: none;">
+        CONVERSION RATE
+      </div>
+      <div id="ans">
+      </div>
+      <div>
+        <button style="display: none;" id="back">BACK</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+  <script src="data.js"></script>
+</body>
+
+</html>
