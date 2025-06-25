@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+
+#start,
+#ops {
+    height: 300px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: cadetblue;
+    color: blanchedalmond;
+}
+
+#qn {
+    align-items: center;
+    justify-content: center;
+}
+
+#ops {
+    display: none;
+    background: none;
+}
+
+#op1,
+#op2,
+#op3,
+#op4 {
+    width: auto;
+    height: 30px;
+    background-color: rgb(209, 192, 255);
+}
+
+
+#back {
+    display: none;
+    background-color: rgb(95, 103, 175);
+}
+
+#point {
+    position: absolute;
+    top: 15px;
+    right: 45px;
+    font-size: 1.2em;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#point1 {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 1.2em;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#pt {
+    width: 30px;
+    display: flex;
+    background-color: black;
+    padding-left: 30px;
+}
